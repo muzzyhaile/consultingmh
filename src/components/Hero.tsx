@@ -4,7 +4,7 @@ import { ArrowRight, Play } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Cinematic background */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1920&h=1080&fit=crop')] bg-cover bg-center opacity-20"></div>
