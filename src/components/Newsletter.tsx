@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -19,7 +18,7 @@ const Newsletter = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-r from-slate-800 via-gray-900 to-slate-800">
+    <section id="contact" className="py-20 bg-gradient-to-r from-slate-800 via-gray-900 to-slate-800">
       <div className="max-w-4xl mx-auto px-6">
         <Card className="bg-gradient-to-br from-gray-800/80 to-gray-900/80 border-gray-700 backdrop-blur-sm">
           <CardContent className="p-12 text-center">

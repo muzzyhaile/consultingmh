@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
@@ -56,7 +55,7 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <section className="py-20 bg-slate-800">
+    <section id="portfolio" className="py-20 bg-slate-800">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">

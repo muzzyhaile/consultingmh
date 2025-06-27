@@ -2,6 +2,13 @@
 import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200/50">
       <nav className="max-w-7xl mx-auto px-8 py-6">
@@ -18,21 +25,36 @@ const Navigation = () => {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-12">
-            <a href="#home" className="text-gray-800 hover:text-black transition-colors font-medium text-sm">
+            <button 
+              onClick={() => scrollToSection('home')} 
+              className="text-gray-800 hover:text-black transition-colors font-medium text-sm"
+            >
               Home
-            </a>
-            <a href="#about" className="text-gray-800 hover:text-black transition-colors font-medium text-sm">
+            </button>
+            <button 
+              onClick={() => scrollToSection('about')} 
+              className="text-gray-800 hover:text-black transition-colors font-medium text-sm"
+            >
               About
-            </a>
-            <a href="#portfolio" className="text-gray-800 hover:text-black transition-colors font-medium text-sm">
+            </button>
+            <button 
+              onClick={() => scrollToSection('portfolio')} 
+              className="text-gray-800 hover:text-black transition-colors font-medium text-sm"
+            >
               Portfolio
-            </a>
-            <a href="#services" className="text-gray-800 hover:text-black transition-colors font-medium text-sm">
-              Exhibitions
-            </a>
-            <a href="#contact" className="text-gray-800 hover:text-black transition-colors font-medium text-sm">
+            </button>
+            <button 
+              onClick={() => scrollToSection('services')} 
+              className="text-gray-800 hover:text-black transition-colors font-medium text-sm"
+            >
+              Services
+            </button>
+            <button 
+              onClick={() => scrollToSection('contact')} 
+              className="text-gray-800 hover:text-black transition-colors font-medium text-sm"
+            >
               Contact
-            </a>
+            </button>
           </div>
 
           {/* User Info */}
