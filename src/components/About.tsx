@@ -19,32 +19,32 @@ const About = () => {
             {
               icon: TrendingUp,
               title: 'Growth',
-              desc: 'Data-driven KPIs and continuous optimisation that accelerate sustainable growth',
+              desc: 'Establish growth loops with metric-driven dashboards, cohort analysis, and iterative optimisation to compound revenue.',
             },
             {
               icon: Zap,
               title: 'AI Integration',
-              desc: 'Practical AI product integration and prototyping that drive customer-centric value',
+              desc: 'Embed LLM capabilities into your product with user tested workflows, rapid prototypes, and scalable deployment architectures.',
             },
             {
               icon: Target,
               title: 'Go-to-Market',
-              desc: 'Data-driven GTM frameworks and strategic roadmaps for sustainable growth',
+              desc: 'Craft evidence based GTM playbooks covering segmentation, positioning, pricing, and launch sequencing that move products from zero to traction.',
             },
             {
               icon: Users,
               title: 'Team Workshops',
-              desc: 'Interactive workshops focused on experimentation that empower cross-functional teams',
+              desc: 'Facilitated workshops that instil experimentation culture, aligning cross-functional teams around hypotheses, sprints, and measurable outcomes.',
             },
             {
               icon: FlaskConical,
               title: 'Experimentation',
-              desc: 'Hypothesis-driven rapid experimentation to de-risk product and marketing decisions',
+              desc: 'Run statistically sound A/B and multivariate tests at high velocity to validate ideas, reduce risk, and unlock incremental growth.',
             },
             {
               icon: Megaphone,
               title: 'Digital Marketing',
-              desc: 'Integrated performance marketing strategies to drive acquisition and retention',
+              desc: 'Design full funnel acquisition engines across organic, paid, and automated channels to drive acquisition and retention.',
             },
           ].map((item, i) => (
             <div
