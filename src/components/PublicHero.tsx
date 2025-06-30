@@ -34,7 +34,7 @@ const PublicHero = () => {
           <div className="flex gap-4 mb-8">
             <Link to="/cv">
               <Button variant="outline" className="border-orange-500 text-orange-500 hover:bg-orange-50 px-6 py-3">
-                View Full CV
+                Get in touch
               </Button>
             </Link>
           </div>
