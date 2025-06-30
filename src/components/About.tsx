@@ -17,16 +17,6 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
-              icon: Target,
-              title: 'Strategic Consulting',
-              desc: 'Data driven strategies and roadmaps for sustainable growth',
-            },
-            {
-              icon: Users,
-              title: 'Team Workshops',
-              desc: 'Agile and Lean Startup practices that empower cross functional teams',
-            },
-            {
               icon: TrendingUp,
               title: 'Measurable Results',
               desc: 'Clear KPIs and continuous optimisation of business processes',
@@ -35,6 +25,16 @@ const About = () => {
               icon: Zap,
               title: 'AI Integration',
               desc: 'Practical AI product integration and prototyping that drive customer-centric value',
+            },
+            {
+              icon: Target,
+              title: 'Go-to-Market',
+              desc: 'Data-driven GTM frameworks and strategic roadmaps for sustainable growth',
+            },
+            {
+              icon: Users,
+              title: 'Team Workshops',
+              desc: 'Interactive workshops focused on experimentation that empower cross-functional teams',
             },
           ].map((item, i) => (
             <div
