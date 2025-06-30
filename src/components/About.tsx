@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Target, Users, TrendingUp, Zap } from "lucide-react";
+import { Target, Users, TrendingUp, Zap, FlaskConical, Megaphone } from "lucide-react";
 
 const About = () => {
   return (
@@ -35,6 +35,16 @@ const About = () => {
               icon: Users,
               title: 'Team Workshops',
               desc: 'Interactive workshops focused on experimentation that empower cross-functional teams',
+            },
+            {
+              icon: FlaskConical,
+              title: 'Experimentation',
+              desc: 'Hypothesis-driven rapid experimentation to de-risk product and marketing decisions',
+            },
+            {
+              icon: Megaphone,
+              title: 'Digital Marketing',
+              desc: 'Integrated performance marketing strategies to drive acquisition and retention',
             },
           ].map((item, i) => (
             <div
