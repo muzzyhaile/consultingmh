@@ -18,8 +18,8 @@ const About = () => {
           {[
             {
               icon: TrendingUp,
-              title: 'Measurable Results',
-              desc: 'Clear KPIs and continuous optimisation of business processes',
+              title: 'Growth',
+              desc: 'Data-driven KPIs and continuous optimisation that accelerate sustainable growth',
             },
             {
               icon: Zap,
