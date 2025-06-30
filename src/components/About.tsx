@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Target, Users, TrendingUp } from "lucide-react";
+import { Target, Users, TrendingUp, Zap } from "lucide-react";
 
 const About = () => {
   return (
@@ -30,6 +30,11 @@ const About = () => {
               icon: TrendingUp,
               title: 'Measurable Results',
               desc: 'Clear KPIs and continuous optimisation of business processes',
+            },
+            {
+              icon: Zap,
+              title: 'AI Integration',
+              desc: 'Practical AI product integration and prototyping that drive customer-centric value',
             },
           ].map((item, i) => (
             <div
