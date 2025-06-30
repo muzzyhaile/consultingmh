@@ -8,10 +8,6 @@ const Footer = () => {
         {/* Contact & CV Download Section */}
         <div className="text-center mb-12">
           <h3 className="text-2xl font-bold text-white mb-6">Let's Work Together</h3>
-          <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-            Ready to turn your AI ideas into user-centered products? Let's discuss how we can 
-            accelerate your growth through strategic experimentation and smart automation.
-          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3"
@@ -22,7 +18,7 @@ const Footer = () => {
             </Button>
             <Button 
               variant="outline" 
-              className="border-gray-600 text-gray-300 hover:text-white px-8 py-3"
+              className="border-gray-600 text-black hover:text-black bg-white hover:bg-gray-100 px-8 py-3"
               onClick={() => {
                 // This will need to be updated with the actual CV file path
                 const link = document.createElement('a');
