@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -38,18 +39,6 @@ const PublicHero = () => {
                 Vollständiges CV ansehen
               </Button>
             </Link>
-          </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-2 gap-8">
-            <div>
-              <div className="text-4xl font-bold text-black mb-2">50+</div>
-              <div className="text-gray-600 text-sm">Erfolgreiche Workshops durchgeführt</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-black mb-2">15+</div>
-              <div className="text-gray-600 text-sm">Jahre Erfahrung in digitaler Transformation</div>
-            </div>
           </div>
         </div>
 
