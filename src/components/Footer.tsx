@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Linkedin, Twitter, Github, Download } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Twitter, Github, Download, Calendar } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -11,10 +11,10 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3"
-              onClick={() => window.open('mailto:hello@mussiehaile.com', '_blank')}
+              onClick={() => window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3Bj7G1WwKOxqc9oRvokdLnGpujel-zI_0P9_7UXh-0XFWNcV4y5DByz_2mO41lJqijnhDwRJyS', '_blank')}
             >
-              <Mail className="w-4 h-4 mr-2" />
-              Get In Touch
+              <Calendar className="w-4 h-4 mr-2" />
+              Book a Meeting
             </Button>
             <Button 
               variant="outline" 
