@@ -28,11 +28,6 @@ const SiteNoticePage = () => {
                 <p className="mb-2">E-Mail: admin@guidingventures.com</p>
               </div>
               
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Umsatzsteuer-ID:</h3>
-              <p className="text-gray-700 mb-6">
-                Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DE348867516
-              </p>
-              
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Redaktionell verantwortlich:</h3>
               <p className="text-gray-700 mb-6">Mussie Haile</p>
             </section>
