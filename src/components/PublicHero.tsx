@@ -20,8 +20,8 @@ const PublicHero = () => {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-lg leading-relaxed">
-            Transformiere dein Unternehmen durch praxisnahe Workshops und bewährte Methoden. 
-            Über 15 Jahre Erfahrung in digitaler Innovation und Teamführung.
+            Transform your business through hands-on workshops and proven methodologies. 
+            Over 15 years of experience in digital innovation and team leadership.
           </p>
 
           {/* Contact Info */}
@@ -36,7 +36,7 @@ const PublicHero = () => {
           <div className="flex gap-4 mb-8">
             <Link to="/cv">
               <Button variant="outline" className="border-orange-500 text-orange-500 hover:bg-orange-50 px-6 py-3">
-                Vollständiges CV ansehen
+                View Full CV
               </Button>
             </Link>
           </div>

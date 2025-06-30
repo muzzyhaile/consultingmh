@@ -8,12 +8,12 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Über mich
+            About Me
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Als Digital Consultant & Business Analyst mit über 15 Jahren Erfahrung helfe ich Unternehmen dabei, 
-            ihre digitale Transformation erfolgreich zu gestalten. Meine Expertise liegt in der praktischen 
-            Umsetzung von Strategien durch bewährte Methoden und interaktive Workshops.
+            As a Digital Consultant & Business Analyst with over 15 years of experience, I help companies 
+            successfully navigate their digital transformation. My expertise lies in the practical 
+            implementation of strategies through proven methodologies and interactive workshops.
           </p>
         </div>
 
@@ -21,9 +21,9 @@ const About = () => {
           <Card className="bg-gray-50 border-gray-200 hover:shadow-lg transition-all duration-300">
             <CardContent className="p-8 text-center">
               <Target className="h-12 w-12 text-orange-500 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Strategische Beratung</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Strategic Consulting</h3>
               <p className="text-gray-600">
-                Entwicklung datengetriebener Strategien und Roadmaps für nachhaltige digitale Transformation
+                Development of data-driven strategies and roadmaps for sustainable digital transformation
               </p>
             </CardContent>
           </Card>
@@ -33,7 +33,7 @@ const About = () => {
               <Users className="h-12 w-12 text-orange-500 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Team Coaching</h3>
               <p className="text-gray-600">
-                Agile Methoden und Lean Startup Prinzipien für cross-funktionale Teams implementieren
+                Implementing agile methodologies and Lean Startup principles for cross-functional teams
               </p>
             </CardContent>
           </Card>
@@ -41,9 +41,9 @@ const About = () => {
           <Card className="bg-gray-50 border-gray-200 hover:shadow-lg transition-all duration-300">
             <CardContent className="p-8 text-center">
               <TrendingUp className="h-12 w-12 text-orange-500 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Messbare Ergebnisse</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Measurable Results</h3>
               <p className="text-gray-600">
-                KPI-basierte Erfolgsmessung und kontinuierliche Optimierung von Geschäftsprozessen
+                KPI-based success measurement and continuous optimization of business processes
               </p>
             </CardContent>
           </Card>

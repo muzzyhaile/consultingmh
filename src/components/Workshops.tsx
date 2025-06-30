@@ -7,58 +7,58 @@ const workshops = [
   {
     icon: Target,
     title: "Design Thinking Workshop",
-    duration: "2 Tage",
-    participants: "8-12 Teilnehmer",
-    description: "Nutzerorientierte Lösungsentwicklung durch systematische Ideenfindung und Prototyping.",
+    duration: "2 Days",
+    participants: "8-12 Participants",
+    description: "User-centered solution development through systematic ideation and prototyping.",
     highlights: [
       "Customer Journey Mapping",
       "Rapid Prototyping",
-      "User Testing Methoden",
-      "Iterative Verbesserung"
+      "User Testing Methods",
+      "Iterative Improvement"
     ],
-    price: "Ab 2.500€"
+    price: "From €2,500"
   },
   {
     icon: Zap,
     title: "Agile Transformation",
-    duration: "3 Tage",
-    participants: "10-15 Teilnehmer", 
-    description: "Praktische Einführung in Scrum, Kanban und Lean Startup Methoden für effiziente Teamarbeit.",
+    duration: "3 Days",
+    participants: "10-15 Participants", 
+    description: "Practical introduction to Scrum, Kanban and Lean Startup methods for efficient teamwork.",
     highlights: [
       "Scrum Framework Setup",
-      "Sprint Planning Techniken",
+      "Sprint Planning Techniques",
       "Velocity Tracking",
-      "Retrospektive Methoden"
+      "Retrospective Methods"
     ],
-    price: "Ab 3.800€"
+    price: "From €3,800"
   },
   {
     icon: BarChart3,
     title: "Data-Driven Decision Making",
-    duration: "1 Tag",
-    participants: "6-10 Teilnehmer",
-    description: "KPI-Definition, Dashboard-Erstellung und datenbasierte Strategieentwicklung.",
+    duration: "1 Day",
+    participants: "6-10 Participants",
+    description: "KPI definition, dashboard creation and data-based strategy development.",
     highlights: [
-      "KPI Framework Entwicklung",
+      "KPI Framework Development",
       "Google Analytics 4 Setup",
       "Dashboard Design",
-      "A/B Testing Grundlagen"
+      "A/B Testing Fundamentals"
     ],
-    price: "Ab 1.800€"
+    price: "From €1,800"
   },
   {
     icon: Cog,
     title: "Process Automation Workshop",
-    duration: "2 Tage",
-    participants: "8-12 Teilnehmer",
-    description: "Low-Code/No-Code Lösungen für Workflow-Automatisierung und Effizienzsteigerung.",
+    duration: "2 Days",
+    participants: "8-12 Participants",
+    description: "Low-Code/No-Code solutions for workflow automation and efficiency improvement.",
     highlights: [
-      "Workflow Analyse",
-      "Automation Tools Auswahl",
+      "Workflow Analysis",
+      "Automation Tools Selection",
       "Implementation Roadmap",
-      "ROI Berechnung"
+      "ROI Calculation"
     ],
-    price: "Ab 2.200€"
+    price: "From €2,200"
   }
 ];
 
@@ -71,7 +71,7 @@ const Workshops = () => {
             Workshops & Training
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Praxisnahe Workshops für nachhaltige Veränderung in deinem Unternehmen
+            Hands-on workshops for sustainable change in your organization
           </p>
         </div>
 
@@ -100,7 +100,7 @@ const Workshops = () => {
                 <p className="text-gray-400 leading-relaxed mb-6">{workshop.description}</p>
                 
                 <div className="space-y-2 mb-6">
-                  <h4 className="text-white font-medium">Inhalte:</h4>
+                  <h4 className="text-white font-medium">Content:</h4>
                   {workshop.highlights.map((highlight, highlightIndex) => (
                     <div key={highlightIndex} className="text-green-400 text-sm flex items-start">
                       <span className="mr-2">•</span>
@@ -110,7 +110,7 @@ const Workshops = () => {
                 </div>
                 
                 <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white">
-                  Workshop anfragen
+                  Request Workshop
                 </Button>
               </CardContent>
             </Card>
@@ -119,13 +119,13 @@ const Workshops = () => {
 
         <div className="text-center">
           <div className="bg-gray-800/50 rounded-2xl p-8 border border-gray-700">
-            <h3 className="text-2xl font-bold text-white mb-4">Individuelle Workshops</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Custom Workshops</h3>
             <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
-              Benötigst du eine maßgeschneiderte Lösung? Ich entwickle gerne einen Workshop 
-              speziell für die Bedürfnisse deines Unternehmens.
+              Need a tailored solution? I'd be happy to develop a workshop 
+              specifically for your company's needs.
             </p>
             <Button className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-3">
-              Kostenloses Beratungsgespräch
+              Free Consultation
             </Button>
           </div>
         </div>
