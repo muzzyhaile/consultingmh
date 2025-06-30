@@ -82,7 +82,6 @@ const Newsletter = () => {
             )}
 
             <p className="text-sm text-gray-500 mt-4">
-              Oder kontaktieren Sie mich direkt: haile.mussie@googlemail.com | +4915203252062
             </p>
 
             {/* Certifications */}

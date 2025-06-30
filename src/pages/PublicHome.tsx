@@ -1,7 +1,5 @@
-
 import Navigation from '../components/Navigation';
 import PublicHero from '../components/PublicHero';
-import Workshops from '../components/Workshops';
 import About from '../components/About';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
@@ -12,7 +10,6 @@ const PublicHome = () => {
       <Navigation />
       <PublicHero />
       <About />
-      <Workshops />
       <Newsletter />
       <Footer />
     </div>

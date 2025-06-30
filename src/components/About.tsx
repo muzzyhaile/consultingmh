@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, Users, TrendingUp } from "lucide-react";
 
@@ -11,42 +10,37 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            As a Digital Consultant & Business Analyst with over 15 years of experience, I help companies 
-            successfully navigate their digital transformation. My expertise lies in the practical 
-            implementation of strategies through proven methodologies and interactive workshops.
+            I am a results oriented business analyst and growth consultant with a record of translating complexity into clear experiments and live products. From leading digital rollouts for E.ON across five countries to founding Guiding-Ventures and validating multiple value propositions, I align stakeholders, surface actionable insights and deliver automated solutions that scale. My toolkit spans AI powered marketing, data analytics, process optimisation and agile coaching. The outcome is faster learning cycles, higher conversion and confident teams.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <Card className="bg-gray-50 border-gray-200 hover:shadow-lg transition-all duration-300">
-            <CardContent className="p-8 text-center">
-              <Target className="h-12 w-12 text-orange-500 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Strategic Consulting</h3>
-              <p className="text-gray-600">
-                Development of data-driven strategies and roadmaps for sustainable digital transformation
-              </p>
-            </CardContent>
-          </Card>
-
-          <Card className="bg-gray-50 border-gray-200 hover:shadow-lg transition-all duration-300">
-            <CardContent className="p-8 text-center">
-              <Users className="h-12 w-12 text-orange-500 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Team Coaching</h3>
-              <p className="text-gray-600">
-                Implementing agile methodologies and Lean Startup principles for cross-functional teams
-              </p>
-            </CardContent>
-          </Card>
-
-          <Card className="bg-gray-50 border-gray-200 hover:shadow-lg transition-all duration-300">
-            <CardContent className="p-8 text-center">
-              <TrendingUp className="h-12 w-12 text-orange-500 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Measurable Results</h3>
-              <p className="text-gray-600">
-                KPI-based success measurement and continuous optimization of business processes
-              </p>
-            </CardContent>
-          </Card>
+          {[
+            {
+              icon: Target,
+              title: 'Strategic Consulting',
+              desc: 'Data driven strategies and roadmaps for sustainable growth',
+            },
+            {
+              icon: Users,
+              title: 'Team Workshops',
+              desc: 'Agile and Lean Startup practices that empower cross functional teams',
+            },
+            {
+              icon: TrendingUp,
+              title: 'Measurable Results',
+              desc: 'Clear KPIs and continuous optimisation of business processes',
+            },
+          ].map((item, i) => (
+            <div
+              key={i}
+              className="flex flex-col items-start gap-4 bg-gray-50 p-6 rounded-xl border border-gray-200 hover:shadow-lg transition duration-300"
+            >
+              <item.icon className="h-10 w-10 text-orange-500" />
+              <h3 className="text-lg font-semibold text-gray-900" >{item.title}</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

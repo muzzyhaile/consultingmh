@@ -1,10 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
 
 const Navigation = () => {
   const location = useLocation();
-  const isHomePage = location.pathname === '/';
   
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -26,78 +24,48 @@ const Navigation = () => {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-12">
-            {isHomePage ? (
-              <>
-                <button 
-                  onClick={() => scrollToSection('home')} 
-                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
-                >
-                  Home
-                </button>
-                <button 
-                  onClick={() => scrollToSection('about')} 
-                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
-                >
-                  Über mich
-                </button>
-                <button 
-                  onClick={() => scrollToSection('workshops')} 
-                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
-                >
-                  Workshops
-                </button>
-                <Link 
-                  to="/cv"
-                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
-                >
-                  Vollständiges CV
-                </Link>
-              </>
-            ) : (
-              <>
-                <Link 
-                  to="/"
-                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
-                >
-                  Home
-                </Link>
-                <button 
-                  onClick={() => scrollToSection('home')} 
-                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
-                >
-                  CV Home
-                </button>
-                <button 
-                  onClick={() => scrollToSection('services')} 
-                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
-                >
-                  Kompetenzen
-                </button>
-                <button 
-                  onClick={() => scrollToSection('portfolio')} 
-                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
-                >
-                  Erfahrung
-                </button>
-              </>
-            )}
+            <button 
+              onClick={() => scrollToSection('home')} 
+              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+            >
+              Home
+            </button>
+            <button 
+              onClick={() => scrollToSection('about')} 
+              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+            >
+              About
+            </button>
+            <button 
+              onClick={() => scrollToSection('services')} 
+              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+            >
+              Capabilities
+            </button>
+            <button 
+              onClick={() => scrollToSection('portfolio')} 
+              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+            >
+              Experience
+            </button>
+            <Link 
+              to="/cv"
+              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+            >
+              Full CV
+            </Link>
             <button 
               onClick={() => scrollToSection('contact')} 
               className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
             >
-              Kontakt
+              Contact
             </button>
           </div>
 
           {/* Contact Info */}
-          <div className="flex items-center space-x-4">
-            <div className="hidden sm:flex items-center space-x-2 text-gray-600 text-sm">
-              <span className="text-orange-500">📍</span>
-              <span>Berlin, Germany</span>
-            </div>
-            <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-              <span className="text-white text-xs font-bold">MH</span>
-            </div>
+          <div className="hidden sm:flex items-center space-x-2 text-gray-600 text-sm">
+            <span className="text-orange-500">📍</span>
+            <span>Berlin, Germany</span>
           </div>
         </div>
       </nav>

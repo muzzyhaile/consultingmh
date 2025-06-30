@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const PublicHero = () => {
@@ -15,12 +15,11 @@ const PublicHero = () => {
           </h1>
           
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
-            Digital Transformation Expert
+            Go-to-Market · Experimentation · Growth
           </h2>
           
-          <p className="text-lg text-gray-700 mb-8 max-w-lg leading-relaxed">
-            Transform your business through hands-on workshops and proven methodologies. 
-            Over 15 years of experience in digital innovation and team leadership.
+          <p className="text-lg text-gray-700 mb-4 max-w-lg leading-relaxed">
+            15+ years guiding teams through uncertainty with bold experiments. I turn complex business needs into simple, automated, customer-centric solutions by blending data, creativity and technology.
           </p>
 
           {/* Contact Info */}
@@ -41,25 +40,13 @@ const PublicHero = () => {
           </div>
         </div>
 
-        {/* Right Content - Profile Image Area */}
-        <div className="relative">
-          <div className="bg-gradient-to-br from-orange-300 to-orange-400 rounded-3xl p-8 relative overflow-hidden min-h-[500px] flex items-center justify-center">
-            <div
-              className="absolute inset-0 bg-cover bg-center opacity-90 rounded-3xl"
-              style={{ backgroundImage: "url('/Mussie.jpg')" }}
-            ></div>
-            
-            {/* Floating elements */}
-            <div className="absolute top-8 right-8 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-              <div className="w-6 h-6 bg-orange-600 rounded"></div>
-            </div>
-            <div className="absolute bottom-20 right-12 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-              <div className="w-6 h-6 bg-orange-700 rounded-full"></div>
-            </div>
-            <div className="absolute bottom-8 right-20 w-12 h-12 bg-black/80 backdrop-blur-sm rounded-full flex items-center justify-center">
-              <ArrowRight className="w-6 h-6 text-white" />
-            </div>
-          </div>
+        {/* Right Content - Profile Image */}
+        <div className="flex items-center justify-center">
+          <img
+            src="/Mussie.jpg"
+            alt="Mussie Haile Portrait"
+            className="rounded-3xl object-contain max-h-[500px] shadow-lg"
+          />
         </div>
       </div>
 
