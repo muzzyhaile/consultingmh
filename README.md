@@ -1,73 +1,34 @@
-# Welcome to your Lovable project
+# Mussie Haile — Digital Consultant
 
-## Project info
+Welcome to the codebase that powers my personal website and digital-consulting practice. Here you'll find everything needed to run, develop, and deploy the site.
 
-**URL**: https://lovable.dev/projects/356ebe91-0c54-4fc6-b731-5f96287eea6d
+## Quick Start
 
-## How can I edit this code?
+```bash
+# 1. Clone the repo
+git clone https://github.com/mussiehaile/digital-consultant.git
 
-There are several ways of editing your application.
+# 2. Install dependencies
+cd digital-consultant
+npm install
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/356ebe91-0c54-4fc6-b731-5f96287eea6d) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 3. Start the local dev server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The site will be available at http://localhost:8080 by default.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Tech Stack
 
-**Use GitHub Codespaces**
+- Vite + React 18 + TypeScript
+- Tailwind CSS + [shadcn/ui](https://ui.shadcn.com) component library
+- Lucide-React icon set
+- TanStack Query (client-side data fetching)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## About Mussie Haile
 
-## What technologies are used for this project?
+I'm a digital consultant passionate about helping businesses leverage technology, data, and design to create meaningful experiences and sustainable growth. Learn more at https://mussiehaile.com.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/356ebe91-0c54-4fc6-b731-5f96287eea6d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+© 2024 Mussie Haile. All rights reserved.

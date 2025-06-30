@@ -47,7 +47,10 @@ const Hero = () => {
         {/* Right Content - Profile Image Area */}
         <div className="relative">
           <div className="bg-gradient-to-br from-orange-300 to-orange-400 rounded-3xl p-8 relative overflow-hidden min-h-[500px] flex items-center justify-center">
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&h=600&fit=crop')] bg-cover bg-center opacity-90 rounded-3xl"></div>
+            <div
+              className="absolute inset-0 bg-cover bg-center opacity-90 rounded-3xl"
+              style={{ backgroundImage: "url('/Mussie.jpg')" }}
+            ></div>
             
             {/* Floating elements */}
             <div className="absolute top-8 right-8 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
