@@ -36,11 +36,11 @@ const Newsletter = () => {
             {/* Certifications */}
             <div className="pt-8 border-t border-gray-700">
               <p className="text-gray-400 mb-4">Current Certifications</p>
-              <div className="flex justify-center items-center gap-8 opacity-60 flex-wrap">
-                <div className="text-sm font-semibold text-gray-600">Meta Front-End Developer</div>
-                <div className="text-sm font-semibold text-gray-600">Google Analytics Professional</div>
-                <div className="text-sm font-semibold text-gray-600">Scrum Master</div>
-                <div className="text-sm font-semibold text-gray-600">Product Owner</div>
+              <div className="flex justify-center items-center gap-8 flex-wrap">
+                <div className="text-sm font-semibold text-gray-300">Meta Front-End Developer</div>
+                <div className="text-sm font-semibold text-gray-300">Google Analytics Professional</div>
+                <div className="text-sm font-semibold text-gray-300">Scrum Master</div>
+                <div className="text-sm font-semibold text-gray-300">Product Owner</div>
               </div>
             </div>
           </CardContent>
