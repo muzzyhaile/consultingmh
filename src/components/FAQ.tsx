@@ -21,7 +21,7 @@ const FAQ = () => {
     },
     {
       question: "How long does it take to see traction?",
-      answer: "Initial insights and quick wins typically emerge within the first 2-3 weeks. Meaningful traction—like improved conversion rates or validated product-market fit signals—usually becomes evident within 6-8 weeks of systematic experimentation."
+      answer: "Initial insights and quick wins typically within the first 2-3 weeks. Meaningful traction like improved conversion rates or validated product-market fit signals usually becomes evident within 6-8 weeks of systematic experimentation."
     },
     {
       question: "What makes your approach different from agencies?",

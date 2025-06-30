@@ -133,8 +133,8 @@ const Expertise = () => {
             ))}
           </div>
           <p className="text-gray-600 mt-6 max-w-2xl mx-auto">
-            Staying ahead of the curve in AI, UX, and growth—because the landscape changes fast, 
-            and your strategy needs to evolve with it.
+            Staying ahead of the curve in AI, UX, and growth because the landscape changes fast, 
+            and your strategy needs to change with it.
           </p>
         </div>
       </div>
