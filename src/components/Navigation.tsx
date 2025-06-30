@@ -1,6 +1,11 @@
+
 import { Button } from "@/components/ui/button";
+import { Link, useLocation } from "react-router-dom";
 
 const Navigation = () => {
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+  
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -14,31 +19,68 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-2xl font-bold text-black">
+            <Link to="/" className="text-2xl font-bold text-black">
               MH
-            </div>
+            </Link>
           </div>
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-12">
-            <button 
-              onClick={() => scrollToSection('home')} 
-              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
-            >
-              Home
-            </button>
-            <button 
-              onClick={() => scrollToSection('services')} 
-              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
-            >
-              Kompetenzen
-            </button>
-            <button 
-              onClick={() => scrollToSection('portfolio')} 
-              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
-            >
-              Erfahrung
-            </button>
+            {isHomePage ? (
+              <>
+                <button 
+                  onClick={() => scrollToSection('home')} 
+                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+                >
+                  Home
+                </button>
+                <button 
+                  onClick={() => scrollToSection('about')} 
+                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+                >
+                  Über mich
+                </button>
+                <button 
+                  onClick={() => scrollToSection('workshops')} 
+                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+                >
+                  Workshops
+                </button>
+                <Link 
+                  to="/cv"
+                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+                >
+                  Vollständiges CV
+                </Link>
+              </>
+            ) : (
+              <>
+                <Link 
+                  to="/"
+                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+                >
+                  Home
+                </Link>
+                <button 
+                  onClick={() => scrollToSection('home')} 
+                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+                >
+                  CV Home
+                </button>
+                <button 
+                  onClick={() => scrollToSection('services')} 
+                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+                >
+                  Kompetenzen
+                </button>
+                <button 
+                  onClick={() => scrollToSection('portfolio')} 
+                  className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+                >
+                  Erfahrung
+                </button>
+              </>
+            )}
             <button 
               onClick={() => scrollToSection('contact')} 
               className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
