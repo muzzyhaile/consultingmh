@@ -1,37 +1,36 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { BarChart3, Users, Zap, Target, Cog, TrendingUp } from "lucide-react";
 
 const services = [
   {
-    icon: BarChart3,
-    title: "Business Analysis",
-    description: "Übersetze komplexe Geschäftsanforderungen in umsetzbare digitale Strategien mit messbaren KPIs und ROI-Tracking."
-  },
-  {
     icon: Target,
-    title: "Digital Strategy",
-    description: "Entwicklung datengetriebener MVP-Tests und Lean-Startup-Methoden für nachhaltiges Wachstum von Start-ups bis Konzern."
+    title: "Go-to-Market Strategy",
+    description: "Build data-driven GTM frameworks with customer segmentation, pricing models, and launch sequences. From MVP validation to market penetration with measurable conversion funnels."
   },
   {
-    icon: Users,
-    title: "Agile Coaching",
-    description: "Führung internationaler, cross-funktionaler Teams mit optimierten Sprint-Prozessen und 100% termingerechten Releases."
+    icon: BarChart3,
+    title: "Growth Experimentation",
+    description: "Design and execute systematic A/B testing programs. Statistical analysis, hypothesis-driven experiments, and rapid iteration cycles to optimize CAC/LTV ratios."
   },
   {
     icon: Cog,
-    title: "Process Automation",
-    description: "Low-/No-Code-Automatisierung und Implementierung von KPI-Dashboards für effiziente Workflows und Reporting."
-  },
-  {
-    icon: TrendingUp,
-    title: "Product Development",
-    description: "Nutzerzentrierte Produktentwicklung vom MVP bis Go-Live mit A/B-Testing und kontinuierlicher Optimierung."
+    title: "Marketing Automation",
+    description: "Implement multi-channel automation workflows using HubSpot, Zapier, and custom APIs. Lead scoring, nurture sequences, and attribution modeling for performance marketing."
   },
   {
     icon: Zap,
-    title: "Digital Transformation",
-    Description: "Ganzheitliche Digitalisierung von Geschäftsprozessen mit bewährten Frameworks und Change Management."
+    title: "AI Product Integration",
+    description: "Translate AI/LLM capabilities into user-centered product features. Prototype development, UX design for AI workflows, and technical feasibility assessments."
+  },
+  {
+    icon: Users,
+    title: "Cross-functional Alignment",
+    description: "Bridge technical and business teams through shared metrics, sprint planning, and stakeholder communication. Agile coaching with 100% on-time delivery track record."
+  },
+  {
+    icon: TrendingUp,
+    title: "Data Analytics & KPIs",
+    description: "Build custom dashboards and reporting systems. Google Analytics setup, cohort analysis, and business intelligence tools for data-driven decision making."
   }
 ];
 
@@ -41,10 +40,12 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Fachkompetenzen
+            Core Capabilities
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Spezialisiert auf digitale Transformation, Produktstrategie und datengetriebene Geschäftslösungen
+            <span className="text-orange-400 font-semibold">Go-to-Market · Experimentation · Growth</span>
+            <br />
+            15+ years guiding teams through uncertainty with bold experiments. I turn complex business needs into simple, automated, customer-centric solutions by blending data, creativity and technology.
           </p>
         </div>
 
