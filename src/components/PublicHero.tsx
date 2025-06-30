@@ -16,7 +16,7 @@ const PublicHero = () => {
           </h1>
           
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
-            Digital Transformation Expert & Workshop Facilitator
+            Digital Transformation Expert
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-lg leading-relaxed">
