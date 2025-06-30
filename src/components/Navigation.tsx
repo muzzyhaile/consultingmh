@@ -12,65 +12,65 @@ const Navigation = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200/50">
-      <nav className="max-w-7xl mx-auto px-8 py-6">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800/50">
+      <nav className="max-w-7xl mx-auto px-8 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold text-black">
+            <Link to="/" className="text-2xl font-bold text-white hover:text-orange-400 transition-colors">
               MH
             </Link>
           </div>
 
           {/* Navigation Links */}
-          <div className="hidden md:flex items-center space-x-12">
+          <div className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('home')} 
-              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+              className="text-gray-300 hover:text-orange-400 transition-colors font-medium text-sm"
             >
               Home
             </button>
             <button 
               onClick={() => scrollToSection('about')} 
-              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+              className="text-gray-300 hover:text-orange-400 transition-colors font-medium text-sm"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('services')} 
-              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+              className="text-gray-300 hover:text-orange-400 transition-colors font-medium text-sm"
             >
               Capabilities
             </button>
             <button 
               onClick={() => scrollToSection('expertise')} 
-              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+              className="text-gray-300 hover:text-orange-400 transition-colors font-medium text-sm"
             >
               Expertise
             </button>
             <button 
               onClick={() => scrollToSection('portfolio')} 
-              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+              className="text-gray-300 hover:text-orange-400 transition-colors font-medium text-sm"
             >
               Experience
             </button>
             <button 
               onClick={() => scrollToSection('faq')} 
-              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+              className="text-gray-300 hover:text-orange-400 transition-colors font-medium text-sm"
             >
               FAQ
             </button>
-            <button 
+            <Button 
               onClick={() => scrollToSection('contact')} 
-              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 text-sm font-medium"
             >
               Contact
-            </button>
+            </Button>
           </div>
 
           {/* Contact Info */}
-          <div className="hidden sm:flex items-center space-x-2 text-gray-600 text-sm">
-            <span className="text-orange-500">📍</span>
+          <div className="hidden lg:flex items-center space-x-2 text-gray-400 text-sm">
+            <span className="text-orange-400">📍</span>
             <span>Berlin, Germany</span>
           </div>
         </div>
