@@ -1,36 +1,37 @@
+
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, BarChart3, Smartphone, Cloud, Shield, Zap } from "lucide-react";
+import { BarChart3, Users, Zap, Target, Cog, TrendingUp } from "lucide-react";
 
 const services = [
   {
-    icon: Code,
-    title: "Web Development",
-    description: "Custom web applications built with cutting-edge technologies for optimal performance and user experience."
-  },
-  {
     icon: BarChart3,
-    title: "Data Analytics",
-    description: "Transform raw data into actionable insights with advanced analytics and business intelligence solutions."
+    title: "Business Analysis",
+    description: "Übersetze komplexe Geschäftsanforderungen in umsetzbare digitale Strategien mit messbaren KPIs und ROI-Tracking."
   },
   {
-    icon: Smartphone,
-    title: "Mobile Solutions",
-    description: "Native and cross-platform mobile applications that engage users and drive business growth."
+    icon: Target,
+    title: "Digital Strategy",
+    description: "Entwicklung datengetriebener MVP-Tests und Lean-Startup-Methoden für nachhaltiges Wachstum von Start-ups bis Konzern."
   },
   {
-    icon: Cloud,
-    title: "Cloud Migration",
-    description: "Seamless transition to cloud infrastructure with improved scalability, security, and cost efficiency."
+    icon: Users,
+    title: "Agile Coaching",
+    description: "Führung internationaler, cross-funktionaler Teams mit optimierten Sprint-Prozessen und 100% termingerechten Releases."
   },
   {
-    icon: Shield,
-    title: "Cybersecurity",
-    description: "Comprehensive security solutions to protect your digital assets and maintain customer trust."
+    icon: Cog,
+    title: "Process Automation",
+    description: "Low-/No-Code-Automatisierung und Implementierung von KPI-Dashboards für effiziente Workflows und Reporting."
+  },
+  {
+    icon: TrendingUp,
+    title: "Product Development",
+    description: "Nutzerzentrierte Produktentwicklung vom MVP bis Go-Live mit A/B-Testing und kontinuierlicher Optimierung."
   },
   {
     icon: Zap,
-    title: "Digital Strategy",
-    description: "Strategic consulting to align technology initiatives with business objectives and market opportunities."
+    title: "Digital Transformation",
+    Description: "Ganzheitliche Digitalisierung von Geschäftsprozessen mit bewährten Frameworks und Change Management."
   }
 ];
 
@@ -40,10 +41,10 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Our Expertise
+            Fachkompetenzen
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Comprehensive digital solutions tailored to accelerate your business transformation
+            Spezialisiert auf digitale Transformation, Produktstrategie und datengetriebene Geschäftslösungen
           </p>
         </div>
 
@@ -52,7 +53,7 @@ const Services = () => {
             <Card key={index} className="bg-gray-800/50 border-gray-700 hover:bg-gray-800/70 transition-all duration-300 hover:scale-105 group">
               <CardContent className="p-8">
                 <div className="mb-6">
-                  <service.icon className="h-12 w-12 text-blue-400 group-hover:text-purple-400 transition-colors duration-300" />
+                  <service.icon className="h-12 w-12 text-orange-400 group-hover:text-orange-300 transition-colors duration-300" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">{service.title}</h3>
                 <p className="text-gray-400 leading-relaxed">{service.description}</p>

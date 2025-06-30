@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Play } from "lucide-react";
+import { ArrowRight, Play, MapPin, Phone, Mail } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -9,49 +9,54 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div>
-          <h1 className="text-7xl md:text-8xl font-bold text-black mb-6">
-            visual
+          <h1 className="text-6xl md:text-7xl font-bold text-black mb-6">
+            Mussie
             <br />
-            <span className="text-black">poetry</span>
+            <span className="text-orange-500">Haile</span>
           </h1>
           
-          <p className="text-lg text-gray-700 mb-8 max-w-md leading-relaxed">
-            Welcome to a visual journey that transcends time and space. Discover the artistry of moments captured in motion
+          <h2 className="text-xl font-semibold text-gray-800 mb-4">
+            Digital Consultant & Business Analyst
+          </h2>
+          
+          <p className="text-lg text-gray-700 mb-8 max-w-lg leading-relaxed">
+            Digitale Transformation durch innovative Produktstrategien und datengetriebene Lösungen. 
+            Über 15 Jahre Erfahrung in Energie-, Finanz- und Handelsprojekten.
           </p>
 
-          {/* Social Icons */}
-          <div className="flex space-x-4 mb-12">
-            <div className="w-10 h-10 border border-gray-300 rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors cursor-pointer">
-              <span className="text-sm font-medium">yt</span>
+          {/* Contact Info */}
+          <div className="flex flex-col space-y-3 mb-8 text-gray-600">
+            <div className="flex items-center space-x-3">
+              <Phone className="w-4 h-4 text-orange-500" />
+              <span>+4915203252062</span>
             </div>
-            <div className="w-10 h-10 border border-gray-300 rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors cursor-pointer">
-              <span className="text-sm font-medium">ig</span>
+            <div className="flex items-center space-x-3">
+              <Mail className="w-4 h-4 text-orange-500" />
+              <span>haile.mussie@googlemail.com</span>
             </div>
-            <div className="w-10 h-10 border border-gray-300 rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors cursor-pointer">
-              <span className="text-sm font-medium">fb</span>
-            </div>
-            <div className="w-10 h-10 border border-gray-300 rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors cursor-pointer">
-              <span className="text-sm font-medium">x</span>
+            <div className="flex items-center space-x-3">
+              <MapPin className="w-4 h-4 text-orange-500" />
+              <span>Berlin, Germany</span>
             </div>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-2 gap-8">
             <div>
-              <div className="text-4xl font-bold text-black mb-2">+250k</div>
-              <div className="text-gray-600 text-sm">Videos that reaching a wide audience and give lasting impression</div>
+              <div className="text-4xl font-bold text-black mb-2">15+</div>
+              <div className="text-gray-600 text-sm">Jahre Erfahrung in digitaler Transformation</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-black mb-2">+800k</div>
-              <div className="text-gray-600 text-sm">Hours watched, engaging storytelling that captivates viewers</div>
+              <div className="text-4xl font-bold text-black mb-2">5</div>
+              <div className="text-gray-600 text-sm">Länder erfolgreich digital transformiert</div>
             </div>
           </div>
         </div>
 
-        {/* Right Content - Image Area */}
+        {/* Right Content - Profile Image Area */}
         <div className="relative">
           <div className="bg-gradient-to-br from-orange-300 to-orange-400 rounded-3xl p-8 relative overflow-hidden min-h-[500px] flex items-center justify-center">
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop')] bg-cover bg-center opacity-90 rounded-3xl"></div>
+            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&h=600&fit=crop')] bg-cover bg-center opacity-90 rounded-3xl"></div>
             
             {/* Floating elements */}
             <div className="absolute top-8 right-8 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">

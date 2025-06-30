@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
@@ -15,11 +14,8 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="w-10 h-6 bg-black rounded-sm flex items-center justify-center">
-              <div className="flex space-x-1">
-                <div className="w-2 h-2 bg-white rounded-full"></div>
-                <div className="w-2 h-2 bg-white rounded-full"></div>
-              </div>
+            <div className="text-2xl font-bold text-black">
+              MH
             </div>
           </div>
 
@@ -27,44 +23,38 @@ const Navigation = () => {
           <div className="hidden md:flex items-center space-x-12">
             <button 
               onClick={() => scrollToSection('home')} 
-              className="text-gray-800 hover:text-black transition-colors font-medium text-sm"
+              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
             >
               Home
             </button>
             <button 
-              onClick={() => scrollToSection('about')} 
-              className="text-gray-800 hover:text-black transition-colors font-medium text-sm"
+              onClick={() => scrollToSection('services')} 
+              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
             >
-              About
+              Kompetenzen
             </button>
             <button 
               onClick={() => scrollToSection('portfolio')} 
-              className="text-gray-800 hover:text-black transition-colors font-medium text-sm"
+              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
             >
-              Portfolio
-            </button>
-            <button 
-              onClick={() => scrollToSection('services')} 
-              className="text-gray-800 hover:text-black transition-colors font-medium text-sm"
-            >
-              Services
+              Erfahrung
             </button>
             <button 
               onClick={() => scrollToSection('contact')} 
-              className="text-gray-800 hover:text-black transition-colors font-medium text-sm"
+              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
             >
-              Contact
+              Kontakt
             </button>
           </div>
 
-          {/* User Info */}
+          {/* Contact Info */}
           <div className="flex items-center space-x-4">
             <div className="hidden sm:flex items-center space-x-2 text-gray-600 text-sm">
-              <span className="text-orange-400">📍</span>
-              <span>Sala Canal, 22 Nov 23</span>
+              <span className="text-orange-500">📍</span>
+              <span>Berlin, Germany</span>
             </div>
-            <div className="w-8 h-8 bg-orange-400 rounded-full flex items-center justify-center">
-              <span className="text-white text-xs font-bold">A</span>
+            <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+              <span className="text-white text-xs font-bold">MH</span>
             </div>
           </div>
         </div>
