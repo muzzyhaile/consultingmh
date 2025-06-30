@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, MapPin, Phone, Mail } from "lucide-react";
 
@@ -26,14 +25,6 @@ const Hero = () => {
 
           {/* Contact Info */}
           <div className="flex flex-col space-y-3 mb-8 text-gray-600">
-            <div className="flex items-center space-x-3">
-              <Phone className="w-4 h-4 text-orange-500" />
-              <span>+4915203252062</span>
-            </div>
-            <div className="flex items-center space-x-3">
-              <Mail className="w-4 h-4 text-orange-500" />
-              <span>haile.mussie@googlemail.com</span>
-            </div>
             <div className="flex items-center space-x-3">
               <MapPin className="w-4 h-4 text-orange-500" />
               <span>Berlin, Germany</span>
