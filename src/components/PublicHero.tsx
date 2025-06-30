@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -34,9 +33,6 @@ const PublicHero = () => {
 
           {/* CTA Buttons */}
           <div className="flex gap-4 mb-8">
-            <Button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3">
-              Workshop buchen
-            </Button>
             <Link to="/cv">
               <Button variant="outline" className="border-orange-500 text-orange-500 hover:bg-orange-50 px-6 py-3">
                 Vollständiges CV ansehen
