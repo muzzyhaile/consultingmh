@@ -13,7 +13,7 @@ const Newsletter = () => {
               </h2>
               
               <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-                Combining deep technical expertise with strategic business acumen to deliver measurable results.
+                Combining technical expertise with strategic business acumen to deliver measurable results.
               </p>
             </div>
 

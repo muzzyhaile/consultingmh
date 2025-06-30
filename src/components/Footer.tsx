@@ -33,10 +33,33 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-8 mt-12 text-center">
-          <p className="text-orange-400 font-medium">
-            Go-to-Market · Experimentation · Growth
-          </p>
+        <div className="border-t border-gray-800 pt-8 mt-12">
+          {/* Footer Links */}
+          <div className="flex flex-col items-center space-y-4">
+            <div className="flex space-x-8 text-sm">
+              <a 
+                href="/privacy" 
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Privacy
+              </a>
+              <a 
+                href="/terms" 
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Terms
+              </a>
+              <a 
+                href="/site-notice" 
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Site Notice
+              </a>
+            </div>
+            <p className="text-orange-400 font-medium">
+              Go-to-Market · Experimentation · Growth
+            </p>
+          </div>
         </div>
       </div>
     </footer>
