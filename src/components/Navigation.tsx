@@ -43,17 +43,23 @@ const Navigation = () => {
               Capabilities
             </button>
             <button 
+              onClick={() => scrollToSection('expertise')} 
+              className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
+            >
+              Expertise
+            </button>
+            <button 
               onClick={() => scrollToSection('portfolio')} 
               className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
             >
               Experience
             </button>
-            <Link 
-              to="/cv"
+            <button 
+              onClick={() => scrollToSection('faq')} 
               className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"
             >
-              Full CV
-            </Link>
+              FAQ
+            </button>
             <button 
               onClick={() => scrollToSection('contact')} 
               className="text-gray-800 hover:text-orange-500 transition-colors font-medium text-sm"

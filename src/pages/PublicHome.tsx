@@ -1,6 +1,8 @@
 import Navigation from '../components/Navigation';
 import PublicHero from '../components/PublicHero';
 import About from '../components/About';
+import Expertise from '../components/Expertise';
+import FAQ from '../components/FAQ';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 
@@ -10,6 +12,8 @@ const PublicHome = () => {
       <Navigation />
       <PublicHero />
       <About />
+      <Expertise />
+      <FAQ />
       <Newsletter />
       <Footer />
     </div>
