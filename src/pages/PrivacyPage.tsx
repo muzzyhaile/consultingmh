@@ -103,8 +103,7 @@ const PrivacyPage = () => {
                 Mussie Haile<br />
                 Lohmühlenstraße 65<br />
                 12435 Berlin<br />
-                Phone: +4917687053245<br />
-                E-mail: admin@guidingventures.com
+                E-mail: mussiehle@gmail.com
               </p>
               <p className="text-gray-700 mb-4">
                 The controller is the natural person or legal entity that single-handedly or jointly with others makes decisions as to the purposes of and resources for the processing of personal data (e.g., names, e-mail addresses, etc.).

@@ -24,8 +24,7 @@ const SiteNoticePage = () => {
               
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Kontakt:</h3>
               <div className="text-gray-700 mb-6">
-                <p className="mb-2">Telefon: +4917687053245</p>
-                <p className="mb-2">E-Mail: admin@guidingventures.com</p>
+                <p className="mb-2">E-Mail: mussiehle@gmail.com</p>
               </div>
               
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Redaktionell verantwortlich:</h3>
