@@ -1,6 +1,5 @@
-import { Button } from "@/components/ui/button";
 import { MapPin } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 
 const PublicHero = () => {
   return (
@@ -32,11 +31,18 @@ const PublicHero = () => {
 
           {/* CTA Buttons */}
           <div className="flex gap-4 mb-8">
-            <Link to="/cv">
-              <Button variant="outline" className="border-orange-500 text-orange-500 hover:bg-orange-50 px-6 py-3">
-                Get in touch
-              </Button>
-            </Link>
+            <Button
+              variant="outline"
+              className="border-orange-500 text-orange-500 hover:bg-orange-50 px-6 py-3"
+              onClick={() => {
+                const elem = document.getElementById('contact');
+                if (elem) {
+                  elem.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+            >
+              Get in touch
+            </Button>
           </div>
         </div>
 

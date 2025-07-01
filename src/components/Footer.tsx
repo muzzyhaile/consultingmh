@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Linkedin, Twitter, Github, Download, Calendar } from "lucide-react";
+import { Phone, MapPin, Linkedin, Twitter, Github, Calendar } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -15,20 +15,6 @@ const Footer = () => {
             >
               <Calendar className="w-4 h-4 mr-2" />
               Book a Meeting
-            </Button>
-            <Button 
-              variant="outline" 
-              className="border-gray-600 text-black hover:text-black bg-white hover:bg-gray-100 px-8 py-3"
-              onClick={() => {
-                // This will need to be updated with the actual CV file path
-                const link = document.createElement('a');
-                link.href = '/cv-mussie-haile.pdf'; // You'll need to add this file to public folder
-                link.download = 'Mussie-Haile-CV.pdf';
-                link.click();
-              }}
-            >
-              <Download className="w-4 h-4 mr-2" />
-              Download CV
             </Button>
           </div>
         </div>
