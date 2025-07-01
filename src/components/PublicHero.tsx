@@ -1,4 +1,4 @@
-import { MapPin } from "lucide-react";
+import { Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const PublicHero = () => {
@@ -24,8 +24,8 @@ const PublicHero = () => {
           {/* Contact Info */}
           <div className="flex flex-col space-y-3 mb-8 text-gray-600">
             <div className="flex items-center space-x-3">
-              <MapPin className="w-4 h-4 text-orange-500" />
-              <span>Berlin, Germany</span>
+              <Globe className="w-4 h-4 text-orange-500" />
+              <span>Based in Berlin · Working Worldwide</span>
             </div>
           </div>
 
