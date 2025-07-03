@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-16">
         {/* Contact & CV Download Section */}
         <div className="text-center mb-12">
-          <h3 className="text-2xl font-bold text-white mb-6">Let's Work Together</h3>
+          <h3 className="text-2xl font-bold text-white mb-6">Get in touch</h3>
           <div className="flex flex-col gap-4 justify-center items-center">
             <Button 
               className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3"
@@ -17,12 +17,7 @@ const Footer = () => {
               <Calendar className="w-4 h-4 mr-2" />
               Book a Meeting
             </Button>
-            <button 
-              className="text-gray-400 hover:text-gray-300 transition-colors text-sm underline"
-              onClick={() => window.open('https://guidingventures.substack.com/', '_blank')}
-            >
-              Join me on Substack
-            </button>
+
           </div>
         </div>
 

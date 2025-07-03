@@ -7,9 +7,9 @@ const Newsletter = () => {
         <div className="text-center">
           <button 
             className="text-gray-400 hover:text-gray-300 transition-colors text-sm underline"
-            onClick={() => window.open('https://guidingventures.substack.com/', '_blank')}
+            onClick={() => window.open('', '_blank')}
           >
-            Join me on Substack
+            
           </button>
         </div>
       </div>
