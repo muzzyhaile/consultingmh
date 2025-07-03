@@ -8,10 +8,10 @@ const Newsletter = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-6">
-            Stay Ahead of Digital Transformation
+            Join me on Substack
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Get exclusive insights, proven strategies, and actionable frameworks delivered directly to your inbox.
+            We're here for marketers and operators who are tired of the noise. Each edition of Guiding Ventures gives you practical strategies, proven frameworks, and ideas that actually help you grow. No fluff. No hype. Just the good stuff that works in the real world.
           </p>
         </div>
 
@@ -42,13 +42,18 @@ const Newsletter = () => {
               </div>
             </div>
 
-            <Button 
-              className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 text-lg"
-              onClick={() => window.open('https://guidingventures.substack.com/', '_blank')}
-            >
-              Subscribe to Guiding Ventures
-              <ExternalLink className="w-4 h-4 ml-2" />
-            </Button>
+            <div className="flex flex-col items-start gap-4">
+              <Button 
+                className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 text-lg"
+                onClick={() => window.open('https://guidingventures.substack.com/', '_blank')}
+              >
+                Subscribe to Guiding Ventures
+                <ExternalLink className="w-4 h-4 ml-2" />
+              </Button>
+              <p className="text-gray-400 text-sm">
+                Get in touch to see previous projects and case studies
+              </p>
+            </div>
           </div>
 
           {/* Right: Newsletter Preview Card */}
