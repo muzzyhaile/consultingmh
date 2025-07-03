@@ -13,7 +13,7 @@ const videos = [
     category: "Strategy"
   },
   {
-    title: "AI-Powered Analytics: Real-World Case Studies",
+    title: "AI Analytics: Real-World Case Studies",
     description: "Discover how AI and machine learning are revolutionizing business analytics.",
     thumbnail: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
     duration: "18:45",

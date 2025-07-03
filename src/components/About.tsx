@@ -9,7 +9,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            I am a results-oriented digital strategy consultant with a proven track record of transforming complex business challenges into scalable digital solutions. I align stakeholders around strategic vision, surface actionable insights, and deliver automated solutions that scale. My toolkit spans digital strategy, AI-powered marketing, data analytics, process optimization, and agile coaching. The outcome is accelerated digital transformation, higher conversion rates, and confident teams ready for the digital future.
+            I am a results-oriented digital strategy consultant with a proven track record of transforming complex business challenges into scalable digital solutions. I align stakeholders around strategic vision, surface actionable insights, and deliver solutions that scale. My toolkit spans digital strategy, AI marketing, data analytics, process optimization, and agile coaching. The outcome is accelerated digital transformation, higher conversion rates, and confident teams ready for the digital future.
           </p>
         </div>
       </div>

@@ -14,11 +14,11 @@ const PublicHero = () => {
           </h1>
           
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
-            Digital Strategy · Go-to-Market · Growth & Experimentation
+            Digital Strategy · Go-to-Market · Growth & Automation
           </h2>
           
           <p className="text-lg text-gray-700 mb-4 max-w-lg leading-relaxed">
-            15+ years guiding teams through digital transformation with strategic experimentation. I turn complex business challenges into scalable, data-driven solutions by blending digital strategy, creative thinking, and cutting-edge technology.
+            15+ years guiding teams through digital transformation. I turn complex business challenges into scalable, data-driven solutions by blending digital strategy, creative thinking, and innovative technology.
           </p>
 
           {/* Contact Info */}
@@ -49,7 +49,7 @@ const PublicHero = () => {
         {/* Right Content - Profile Image */}
         <div className="flex items-center justify-center">
           <img
-            src="/Mussie.jpg"
+            src="/Mussie.jpeg"
             alt="Mussie Haile Portrait"
             className="rounded-3xl object-contain max-h-[500px] shadow-lg"
           />

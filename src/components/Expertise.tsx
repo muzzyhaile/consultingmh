@@ -23,7 +23,7 @@ const Expertise = () => {
     },
     {
       title: "Growth Strategy",
-      description: "Building systematic approaches to sustainable growth through experimentation",
+      description: "Building systematic approaches to sustainable growth through automation",
       subtopics: [
         "Lean growth strategy",
         "Experiment-led org design",
@@ -47,7 +47,7 @@ const Expertise = () => {
     "Multi-modal LLM applications",
     "How to design voice and chat-based UX",
     "AI-native product orgs and how to scale them",
-    "Systemic experimentation for early-stage companies",
+    "Systemic automation for early-stage companies",
     "Ethical implications of AI automation in decision-making"
   ];
 

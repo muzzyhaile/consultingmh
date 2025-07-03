@@ -13,7 +13,7 @@ const FAQ = () => {
     },
     {
       question: "How do you align product and marketing in digital strategies?",
-      answer: "I bridge the gap by creating shared metrics and feedback loops between teams within a digital strategy framework. This includes setting up experiment frameworks that inform both product decisions and marketing strategies, ensuring consistent messaging and user experience across the entire digital ecosystem."
+      answer: "I bridge the gap by creating shared metrics and feedback loops between teams within a digital strategy framework. This includes setting up automation frameworks that inform both product decisions and marketing strategies, ensuring consistent messaging and user experience across the entire digital ecosystem."
     },
     {
       question: "Can you help us validate a digital business idea fast?",
@@ -40,7 +40,7 @@ const FAQ = () => {
     },
     {
       objection: "We already have a digital strategy team",
-      response: "Great! I work alongside your existing team to add specialized expertise in digital transformation, AI integration, and growth experimentation. Think of it as augmenting your team's digital capabilities rather than replacing anyone."
+      response: "Great! I work alongside your existing team to add specialized expertise in digital transformation, AI integration, and growth automation. Think of it as augmenting your team's digital capabilities rather than replacing anyone."
     },
     {
       objection: "It's too early to think about digital strategy",

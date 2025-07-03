@@ -14,7 +14,7 @@ const services = [
   },
   {
     icon: BarChart3,
-    title: "Growth Experimentation",
+    title: "Growth Automation",
     description: "Design and execute systematic A/B testing programs. Statistical analysis, hypothesis-driven experiments, and rapid iteration cycles to optimize CAC/LTV ratios."
   },
   {
@@ -48,9 +48,9 @@ const Services = () => {
             Core Capabilities
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            <span className="text-orange-400 font-semibold">Digital Strategy · Go-to-Market · Growth & Experimentation</span>
+            <span className="text-orange-400 font-semibold">Digital Strategy · Go-to-Market · Growth & Automation</span>
             <br />
-            15+ years guiding teams through digital transformation with strategic experimentation. I turn complex business challenges into scalable, data-driven solutions by blending digital strategy, creative thinking, and cutting-edge technology.
+            15+ years guiding teams through digital transformation with strategic automation. I turn complex business challenges into scalable, data-driven solutions by blending digital strategy, creative thinking, and cutting-edge technology.
           </p>
         </div>
 

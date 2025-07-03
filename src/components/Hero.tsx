@@ -15,11 +15,11 @@ const Hero = () => {
           </h1>
           
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
-            Go-to-Market · Experimentation · Growth
+            Go-to-Market · Automation · Growth
           </h2>
           
           <p className="text-lg text-gray-700 mb-4 max-w-lg leading-relaxed">
-            15+ years guiding teams through uncertainty with bold experiments. I turn complex business needs into simple, automated, customer-centric solutions by blending data, creativity and technology.
+            15+ years guiding teams through uncertainty with bold automation initiatives. I turn complex business needs into simple, automated, customer-centric solutions by blending data, creativity and technology.
           </p>
 
           {/* Contact Info */}
@@ -46,7 +46,7 @@ const Hero = () => {
         {/* Right Content - Profile Image */}
         <div className="flex items-center justify-center">
           <img
-            src="/Mussie.jpg"
+            src="/Mussie.jpeg"
             alt="Mussie Haile Portrait"
             className="rounded-3xl object-contain max-h-[500px] shadow-lg"
           />

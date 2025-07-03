@@ -14,7 +14,7 @@ const SiteNoticePage = () => {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Angaben gemäß § 5 TMG</h2>
               
               <div className="text-gray-700 mb-6">
-                <p className="mb-2"><strong>Mussie Haile - Digital Strategy · Go-to-Market · Growth & Experimentation</strong></p>
+                <p className="mb-2"><strong>Mussie Haile - Digital Strategy · Go-to-Market · Growth & Automation</strong></p>
                 <p className="mb-2">Lohmühlenstraße 65</p>
                 <p className="mb-4">12435 Berlin</p>
               </div>
@@ -30,7 +30,7 @@ const SiteNoticePage = () => {
               
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Tätigkeitsbereich:</h3>
               <p className="text-gray-700 mb-6">
-                Digital Strategy · Go-to-Market · Growth & Experimentation
+                Digital Strategy · Go-to-Market · Growth & Automation
               </p>
               
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Redaktionell verantwortlich:</h3>
@@ -81,7 +81,7 @@ const SiteNoticePage = () => {
               
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Berufsbezeichnung</h3>
               <p className="text-gray-700 mb-4">
-                Digital Strategy · Go-to-Market · Growth & Experimentation Consultant
+                Digital Strategy · Go-to-Market · Growth & Automation Consultant
               </p>
               
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Berufshaftpflichtversicherung</h3>

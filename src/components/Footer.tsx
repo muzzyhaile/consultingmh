@@ -39,7 +39,7 @@ const Footer = () => {
               </Link>
             </div>
             <p className="text-orange-400 font-medium">
-              Digital Strategy · Go-to-Market · Growth & Experimentation
+              Digital Strategy · Go-to-Market · Growth & Automation
             </p>
           </div>
         </div>
