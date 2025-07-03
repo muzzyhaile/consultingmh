@@ -66,10 +66,10 @@ const Expertise = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">
-            Expertise & Brand Positioning
+            Expertise
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Deep expertise across digital strategy, AI innovation, and growth acceleration—
+            Deep expertise across digital strategy, AI innovation, and growth acceleration,
             helping teams navigate digital transformation with confidence and clarity.
           </p>
         </div>
