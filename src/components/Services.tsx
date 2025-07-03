@@ -5,37 +5,37 @@ const services = [
   {
     icon: Compass,
     title: "Digital Strategy & Transformation",
-    description: "Develop comprehensive digital transformation roadmaps that align technology, processes, and people. Strategic planning, digital maturity assessments, and implementation frameworks for sustainable growth."
+    description: "Create a clear, step-by-step plan for your digital change. Know who does what and when."
   },
   {
     icon: Target,
     title: "Go-to-Market Strategy",
-    description: "Build data-driven GTM frameworks with customer segmentation, pricing models, and launch sequences. From MVP validation to market penetration with measurable conversion funnels."
+    description: "Find your best customers, set the right price, and launch with a simple checklist and targets."
   },
   {
     icon: BarChart3,
     title: "Growth Automation",
-    description: "Design and execute systematic A/B testing programs. Statistical analysis, hypothesis-driven experiments, and rapid iteration cycles to optimize CAC/LTV ratios."
+    description: "Run quick A/B tests, keep what works, cut costs, and lift sales."
   },
   {
     icon: Cog,
     title: "Marketing Automation",
-    description: "Implement multi-channel automation workflows using HubSpot, Zapier, and custom APIs. Lead scoring, nurture sequences, and attribution modeling for performance marketing."
+    description: "Set up email, ads, and CRM so leads move on their own. Score, nurture, and track every deal."
   },
   {
     icon: Zap,
     title: "AI Product Integration",
-    description: "Translate AI/LLM capabilities into user-centered product features. Prototype development, UX design for AI workflows, and technical feasibility assessments."
+    description: "Add AI features users love. Build small demos fast, test them, then launch at scale."
   },
   {
     icon: Users,
     title: "Cross-functional Alignment",
-    description: "Bridge technical and business teams through shared metrics, sprint planning, and stakeholder communication. Agile coaching with 100% on-time delivery track record."
+    description: "Get tech and business talking. Shared goals, weekly sprints, clear updates."
   },
   {
     icon: TrendingUp,
     title: "Data Analytics & KPIs",
-    description: "Build custom dashboards and reporting systems. Google Analytics setup, cohort analysis, and business intelligence tools for data-driven decision making."
+    description: "Create live dashboards so you always know what works. Set KPIs, track cohorts, act fast."
   }
 ];
 
