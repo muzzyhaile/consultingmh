@@ -14,11 +14,11 @@ const PublicHero = () => {
           </h1>
           
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
-            Go-to-Market · Experimentation · Growth
+            Digital Strategy · Go-to-Market · Growth & Experimentation
           </h2>
           
           <p className="text-lg text-gray-700 mb-4 max-w-lg leading-relaxed">
-            15+ years guiding teams through uncertainty with bold experiments. I turn complex business needs into simple, automated, customer-centric solutions by blending data, creativity and technology.
+            15+ years guiding teams through digital transformation with strategic experimentation. I turn complex business challenges into scalable, data-driven solutions by blending digital strategy, creative thinking, and cutting-edge technology.
           </p>
 
           {/* Contact Info */}

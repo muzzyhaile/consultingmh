@@ -1,6 +1,7 @@
 import Navigation from '../components/Navigation';
 import PublicHero from '../components/PublicHero';
 import About from '../components/About';
+import Services from '../components/Services';
 import Expertise from '../components/Expertise';
 import FAQ from '../components/FAQ';
 import Newsletter from '../components/Newsletter';
@@ -12,6 +13,7 @@ const PublicHome = () => {
       <Navigation />
       <PublicHero />
       <About />
+      <Services />
       <Expertise />
       <FAQ />
       <Newsletter />

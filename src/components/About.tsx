@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Target, Users, TrendingUp, Zap, FlaskConical, Megaphone } from "lucide-react";
+import { Target, Users, TrendingUp, Zap, FlaskConical, Megaphone, Compass } from "lucide-react";
 
 const About = () => {
   return (
@@ -10,12 +10,17 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            I am a results oriented business analyst and growth consultant with a record of translating complexity into clear experiments and live products. From leading digital rollouts for E.ON across five countries to founding Guiding-Ventures and validating multiple value propositions, I align stakeholders, surface actionable insights and deliver automated solutions that scale. My toolkit spans AI powered marketing, data analytics, process optimisation and agile coaching. The outcome is faster learning cycles, higher conversion and confident teams.
+            I am a results-oriented digital strategy consultant with a proven track record of transforming complex business challenges into scalable digital solutions. I align stakeholders around strategic vision, surface actionable insights, and deliver automated solutions that scale. My toolkit spans digital strategy, AI-powered marketing, data analytics, process optimization, and agile coaching. The outcome is accelerated digital transformation, higher conversion rates, and confident teams ready for the digital future.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
+            {
+              icon: Compass,
+              title: 'Digital Strategy',
+              desc: 'Develop comprehensive digital transformation roadmaps that align technology, processes, and people to achieve strategic business objectives.',
+            },
             {
               icon: TrendingUp,
               title: 'Growth',

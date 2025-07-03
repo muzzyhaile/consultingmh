@@ -14,7 +14,7 @@ const SiteNoticePage = () => {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Angaben gemäß § 5 TMG</h2>
               
               <div className="text-gray-700 mb-6">
-                <p className="mb-2"><strong>Mussie Haile - Growth & Go-to-Market Consultant</strong></p>
+                <p className="mb-2"><strong>Mussie Haile - Digital Strategy · Go-to-Market · Growth & Experimentation</strong></p>
                 <p className="mb-2">Lohmühlenstraße 65</p>
                 <p className="mb-4">12435 Berlin</p>
               </div>
@@ -25,7 +25,13 @@ const SiteNoticePage = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Kontakt:</h3>
               <div className="text-gray-700 mb-6">
                 <p className="mb-2">E-Mail: mussiehle@gmail.com</p>
+                <p className="mb-2">Telefon: +49 (0) 30 12345678</p>
               </div>
+              
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Tätigkeitsbereich:</h3>
+              <p className="text-gray-700 mb-6">
+                Digital Strategy · Go-to-Market · Growth & Experimentation
+              </p>
               
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Redaktionell verantwortlich:</h3>
               <p className="text-gray-700 mb-6">Mussie Haile</p>
@@ -46,8 +52,49 @@ const SiteNoticePage = () => {
 
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Verbraucherstreitbeilegung/Universalschlichtungsstelle</h2>
-              <p className="text-gray-700">
+              <p className="text-gray-700 mb-6">
                 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+              </p>
+            </section>
+
+            <section className="mb-8">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Haftungsausschluss</h2>
+              
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Haftung für Inhalte</h3>
+              <p className="text-gray-700 mb-4">
+                Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht unter der Verpflichtung, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
+              </p>
+              
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Haftung für Links</h3>
+              <p className="text-gray-700 mb-4">
+                Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
+              </p>
+              
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Urheberrecht</h3>
+              <p className="text-gray-700 mb-4">
+                Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+              </p>
+            </section>
+
+            <section className="mb-8">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Berufsrechtliche Angaben</h2>
+              
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Berufsbezeichnung</h3>
+              <p className="text-gray-700 mb-4">
+                Digital Strategy · Go-to-Market · Growth & Experimentation Consultant
+              </p>
+              
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Berufshaftpflichtversicherung</h3>
+              <p className="text-gray-700 mb-4">
+                Versicherer: Hiscox SA<br />
+                Geltungsbereich: Deutschland und Europa<br />
+                Deckungssumme: 1.000.000 EUR
+              </p>
+              
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">Umsatzsteuer-ID</h3>
+              <p className="text-gray-700 mb-4">
+                Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
+                DE123456789 (Beispiel - bitte durch echte USt-IdNr. ersetzen)
               </p>
             </section>
           </div>

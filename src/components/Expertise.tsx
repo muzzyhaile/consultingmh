@@ -4,6 +4,15 @@ import { Badge } from "@/components/ui/badge";
 const Expertise = () => {
   const pillarTopics = [
     {
+      title: "Digital Strategy & Transformation",
+      description: "Comprehensive digital transformation strategies that align technology, processes, and people",
+      subtopics: [
+        "Digital transformation roadmaps",
+        "Strategic technology planning",
+        "Change management & adoption"
+      ]
+    },
+    {
       title: "AI & Product Innovation",
       description: "Turning AI concepts into user-centered products that deliver real business value",
       subtopics: [
@@ -20,28 +29,21 @@ const Expertise = () => {
         "Experiment-led org design",
         "Brand + performance integration"
       ]
-    },
-    {
-      title: "Digital Transformation",
-      description: "Modernizing operations and enabling teams through smart automation and tooling",
-      subtopics: [
-        "Marketing automation",
-        "UX tooling + design ops",
-        "Founder enablement + venture building"
-      ]
     }
   ];
 
   const clientOutcomes = [
+    "A comprehensive digital strategy roadmap with clear implementation steps",
     "A validated AI use case that delivers business value",
     "Clear UX strategy for complex AI products",
     "Improved CAC/LTV from smarter, integrated marketing funnels",
-    "Confidence that they're not falling behind competitors on AI",
+    "Confidence that they're not falling behind competitors on digital transformation",
     "A GTM strategy that turns vision into traction",
-    "Support in aligning tech and business teams"
+    "Support in aligning tech and business teams around digital initiatives"
   ];
 
   const currentLearning = [
+    "Digital transformation frameworks for SMEs",
     "Multi-modal LLM applications",
     "How to design voice and chat-based UX",
     "AI-native product orgs and how to scale them",
@@ -50,10 +52,11 @@ const Expertise = () => {
   ];
 
   const actionTriggers = [
+    "They need a digital transformation strategy but don't know where to start",
     "They have an AI prototype but no idea how to ship it",
     "Their marketing team is underperforming and drowning in tools",
     "Their org is stuck in 'strategy paralysis'",
-    "They know AI is critical but don't have time to explore 20 tools",
+    "They know digital transformation is critical but lack the roadmap",
     "They want to raise or scale but need narrative and traction"
   ];
 
@@ -66,8 +69,8 @@ const Expertise = () => {
             Expertise & Brand Positioning
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Deep expertise across AI innovation, growth strategy, and digital transformation—
-            helping teams navigate uncertainty with confidence and clarity.
+            Deep expertise across digital strategy, AI innovation, and growth acceleration—
+            helping teams navigate digital transformation with confidence and clarity.
           </p>
         </div>
 
@@ -133,8 +136,8 @@ const Expertise = () => {
             ))}
           </div>
           <p className="text-gray-600 mt-6 max-w-2xl mx-auto">
-            Staying ahead of the curve in AI, UX, and growth because the landscape changes fast, 
-            and your strategy needs to change with it.
+            Staying ahead of the curve in digital strategy, AI, UX, and growth because the landscape changes fast, 
+            and your transformation strategy needs to evolve with it.
           </p>
         </div>
       </div>

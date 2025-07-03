@@ -1,7 +1,12 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { BarChart3, Users, Zap, Target, Cog, TrendingUp } from "lucide-react";
+import { BarChart3, Users, Zap, Target, Cog, TrendingUp, Compass } from "lucide-react";
 
 const services = [
+  {
+    icon: Compass,
+    title: "Digital Strategy & Transformation",
+    description: "Develop comprehensive digital transformation roadmaps that align technology, processes, and people. Strategic planning, digital maturity assessments, and implementation frameworks for sustainable growth."
+  },
   {
     icon: Target,
     title: "Go-to-Market Strategy",
@@ -43,9 +48,9 @@ const Services = () => {
             Core Capabilities
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            <span className="text-orange-400 font-semibold">Go-to-Market · Experimentation · Growth</span>
+            <span className="text-orange-400 font-semibold">Digital Strategy · Go-to-Market · Growth & Experimentation</span>
             <br />
-            15+ years guiding teams through uncertainty with bold experiments. I turn complex business needs into simple, automated, customer-centric solutions by blending data, creativity and technology.
+            15+ years guiding teams through digital transformation with strategic experimentation. I turn complex business challenges into scalable, data-driven solutions by blending digital strategy, creative thinking, and cutting-edge technology.
           </p>
         </div>
 

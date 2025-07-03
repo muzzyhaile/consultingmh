@@ -59,7 +59,7 @@ const Navigation = () => {
           {/* Contact Info */}
           <div className="hidden lg:flex items-center space-x-2 text-gray-400 text-sm">
             <span className="text-orange-400">🌍</span>
-            <span>Based in Berlin · Working Worldwide</span>
+            <span>Digital Strategy · Berlin · Worldwide</span>
           </div>
         </div>
       </nav>

@@ -2,6 +2,18 @@
   "cleanUrls": true,
   "rewrites": [
     {
+      "source": "/privacy",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/site-notice",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/impressum",
+      "destination": "/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

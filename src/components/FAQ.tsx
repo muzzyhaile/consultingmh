@@ -4,43 +4,47 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const FAQ = () => {
   const faqs = [
     {
+      question: "How do you approach digital transformation strategy?",
+      answer: "I start with a comprehensive digital maturity assessment to understand your current state, then develop a phased transformation roadmap that aligns technology, processes, and people. The focus is on sustainable change that delivers measurable business value at each stage."
+    },
+    {
       question: "What's your process for working with AI/LLM prototypes?",
       answer: "I start by understanding your business goals and user needs, then help validate the AI use case through rapid prototyping and user testing. We focus on building MVPs that prove value before scaling, ensuring the AI actually solves real problems for your users."
     },
     {
-      question: "How do you align product and marketing?",
-      answer: "I bridge the gap by creating shared metrics and feedback loops between teams. This includes setting up experiment frameworks that inform both product decisions and marketing strategies, ensuring consistent messaging and user experience across the entire funnel."
+      question: "How do you align product and marketing in digital strategies?",
+      answer: "I bridge the gap by creating shared metrics and feedback loops between teams within a digital strategy framework. This includes setting up experiment frameworks that inform both product decisions and marketing strategies, ensuring consistent messaging and user experience across the entire digital ecosystem."
     },
     {
-      question: "Can you help us validate an idea fast?",
-      answer: "Absolutely. I use lean validation techniques including user interviews, landing page tests, and rapid prototyping to validate assumptions quickly. Most validation cycles can be completed in 2-4 weeks, giving you clear direction on whether to pivot or proceed."
+      question: "Can you help us validate a digital business idea fast?",
+      answer: "Absolutely. I use lean validation techniques including user interviews, landing page tests, and rapid prototyping to validate digital assumptions quickly. Most validation cycles can be completed in 2-4 weeks, giving you clear direction on whether to pivot or proceed with your digital initiative."
     },
     {
-      question: "Do you work hands-on with our teams?",
-      answer: "Yes, I work directly with your teams rather than just providing recommendations. This includes running workshops, setting up processes, and coaching team members. The goal is to build internal capability while delivering immediate results."
+      question: "Do you work hands-on with our teams during transformation?",
+      answer: "Yes, I work directly with your teams rather than just providing recommendations. This includes running digital strategy workshops, setting up transformation processes, and coaching team members. The goal is to build internal digital capabilities while delivering immediate results."
     },
     {
-      question: "How long does it take to see traction?",
-      answer: "Initial insights and quick wins typically within the first 2-3 weeks. Meaningful traction like improved conversion rates or validated product-market fit signals usually becomes evident within 6-8 weeks of systematic experimentation."
+      question: "How long does digital transformation take to show results?",
+      answer: "Initial insights and quick wins typically within the first 2-3 weeks. Meaningful transformation results like improved digital metrics or validated new digital capabilities usually become evident within 6-8 weeks of systematic implementation."
     },
     {
-      question: "What makes your approach different from agencies?",
-      answer: "I focus on building your team's capabilities rather than just delivering outputs. You get hands-on strategic work combined with knowledge transfer, so your team can continue the momentum after our engagement. Plus, I understand both the technical and business sides deeply."
+      question: "What makes your digital strategy approach different from agencies?",
+      answer: "I focus on building your team's digital capabilities rather than just delivering outputs. You get hands-on strategic work combined with knowledge transfer, so your team can continue the digital transformation momentum after our engagement. Plus, I understand both the technical and business sides of digital transformation deeply."
     }
   ];
 
   const commonObjections = [
     {
-      objection: "We're not ready for AI",
-      response: "Most teams think they need perfect data or massive resources to start with AI. Actually, you can begin with simple automation and user research to identify where AI adds the most value. Starting small reduces risk and builds confidence."
+      objection: "We're not ready for digital transformation",
+      response: "Most teams think they need perfect systems or massive resources to start digital transformation. Actually, you can begin with small digital improvements and strategic planning to identify where transformation adds the most value. Starting small reduces risk and builds digital confidence."
     },
     {
-      objection: "We already have a product manager",
-      response: "Great! I work alongside your PM to add specialized expertise in AI/UX integration and growth experimentation. Think of it as augmenting your team's capabilities rather than replacing anyone."
+      objection: "We already have a digital strategy team",
+      response: "Great! I work alongside your existing team to add specialized expertise in digital transformation, AI integration, and growth experimentation. Think of it as augmenting your team's digital capabilities rather than replacing anyone."
     },
     {
-      objection: "It's too early to think about growth",
-      response: "Early is actually the perfect time to build growth into your product foundation. It's much harder (and more expensive) to retrofit growth mechanics later than to design them in from the start."
+      objection: "It's too early to think about digital strategy",
+      response: "Early is actually the perfect time to build digital strategy into your business foundation. It's much harder (and more expensive) to retrofit digital transformation later than to design it in from the start of your growth journey."
     }
   ];
 

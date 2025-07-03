@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Linkedin, Twitter, Github, Calendar } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         {/* Contact & CV Download Section */}
         <div className="text-center mb-12">
           <h3 className="text-2xl font-bold text-white mb-6">Let's Work Together</h3>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col gap-4 justify-center items-center">
             <Button 
               className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3"
               onClick={() => window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3Bj7G1WwKOxqc9oRvokdLnGpujel-zI_0P9_7UXh-0XFWNcV4y5DByz_2mO41lJqijnhDwRJyS', '_blank')}
@@ -16,6 +17,12 @@ const Footer = () => {
               <Calendar className="w-4 h-4 mr-2" />
               Book a Meeting
             </Button>
+            <button 
+              className="text-gray-400 hover:text-gray-300 transition-colors text-sm underline"
+              onClick={() => window.open('https://guidingventures.substack.com/', '_blank')}
+            >
+              Join me on Substack
+            </button>
           </div>
         </div>
 
@@ -23,21 +30,21 @@ const Footer = () => {
           {/* Footer Links */}
           <div className="flex flex-col items-center space-y-4">
             <div className="flex space-x-8 text-sm">
-              <a 
-                href="/privacy" 
+              <Link 
+                to="/privacy" 
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 Privacy
-              </a>
-              <a 
-                href="/site-notice" 
+              </Link>
+              <Link 
+                to="/site-notice" 
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                Site Notice
-              </a>
+                Impressum
+              </Link>
             </div>
             <p className="text-orange-400 font-medium">
-              Go-to-Market · Experimentation · Growth
+              Digital Strategy · Go-to-Market · Growth & Experimentation
             </p>
           </div>
         </div>
