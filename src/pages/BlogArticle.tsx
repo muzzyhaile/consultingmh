@@ -13,7 +13,7 @@ While these agents offer similar functionality to ChatGPT’s new agent, **none 
 
 ## Five Years to an “Agent-First” Internet?
 
-A growing group of voices predicts that in the next 5 years, AI agents will **dominate user interactions**, potentially making today’s web interfaces obsolete. The *“godfather of UX”* Jakob Nielsen recently argued that autonomous agents will transform UX by **automating interactions** – users may *“stop visiting websites in favor of solely interacting through their agent.”* Traditional point-and-click UIs could become *obsolete*. In Nielsen’s vision, we’ll be *designing for agents, not humans*, because people will delegate tasks to an AI intermediary for efficiency.
+A growing group of voices predicts that in the next 5 years, AI agents will **dominate user interactions**, potentially making today’s web interfaces obsolete. The *“godfather of UX”* Jakob Nielsen recently argued that autonomous agents will transform UX by **automating interactions**  users may *“stop visiting websites in favor of solely interacting through their agent.”* Traditional point-and-click UIs could become *obsolete*. In Nielsen’s vision, we’ll be *designing for agents, not humans*, because people will delegate tasks to an AI intermediary for efficiency.
 
 This radical shift isn’t just one expert’s hunch. Even those building new interfaces see the writing on the wall. As Arc browser’s CEO noted, *“People aren’t interfacing with the internet through web pages anymore. They’re interfacing with AI models.”* In other words, the **chat interface** (natural language) could replace many graphical user interfaces. The **website as we know it** might fade into a behind-the-scenes repository that feeds information to your personal AI.
 
