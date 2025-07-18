@@ -48,6 +48,12 @@ const Navigation = () => {
             >
               FAQ
             </button>
+            <button
+              onClick={() => scrollToSection('blog')}
+              className="text-gray-300 hover:text-orange-400 transition-colors font-medium text-sm"
+            >
+              Blog
+            </button>
             <Button 
               onClick={() => scrollToSection('contact')} 
               className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 text-sm font-medium"

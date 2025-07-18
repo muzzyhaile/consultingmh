@@ -7,6 +7,8 @@ import PublicHome from "./pages/PublicHome";
 import PrivacyPage from "./pages/PrivacyPage";
 import SiteNoticePage from "./pages/SiteNoticePage";
 import NotFound from "./pages/NotFound";
+import BlogIndex from "./pages/BlogIndex";
+import BlogArticle from "./pages/BlogArticle";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +23,8 @@ const App = () => (
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/site-notice" element={<SiteNoticePage />} />
           <Route path="/impressum" element={<SiteNoticePage />} />
+          <Route path="/blog" element={<BlogIndex />} />
+          <Route path="/blog/:slug" element={<BlogArticle />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

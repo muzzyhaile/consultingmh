@@ -5,6 +5,7 @@ import Services from '../components/Services';
 import Expertise from '../components/Expertise';
 import FAQ from '../components/FAQ';
 import Newsletter from '../components/Newsletter';
+import BlogPreview from '../components/BlogPreview';
 import Footer from '../components/Footer';
 
 const PublicHome = () => {
@@ -16,6 +17,7 @@ const PublicHome = () => {
       <Services />
       <Expertise />
       <FAQ />
+      <BlogPreview />
       <Newsletter />
       <Footer />
     </div>

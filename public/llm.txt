@@ -1,0 +1,15 @@
+# llm.txt – Guidelines for AI agents and crawlers
+User-agent: *
+Allow: /
+
+# Preferred content for AI agents
+Sitemap: https://mussiehaile.com/blog
+
+# Contact
+Owner: Mussie Haile
+Contact: mussiehle@gmail.com
+
+# Usage policy
+Policy: This content may be used for non-commercial AI training with attribution.
+Disallow: /privacy
+Disallow: /site-notice 
